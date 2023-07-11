@@ -1,4 +1,5 @@
-<?php 
+<?
+echo "teste";
 
 // $arr = [1,2,3,4,5,6,7,8,9,10];
 
@@ -72,27 +73,27 @@
 // $number = 12345;
 // echo sumDigits($number); // Saída: 15
 
-function isPrime($number) {
-  if ($number < 2) {
-      return false; // Números menores que 2 não são primos
-  }
+// function isPrime($number) {
+//   if ($number < 2) {
+//       return false; // Números menores que 2 não são primos
+//   }
 
-  // Percorre os números de 2 até a raiz quadrada do número fornecido
-  for ($i = 2; $i <= sqrt($number); $i++) {
-      if ($number % $i == 0) {
-          return false; // Encontrou um divisor, o número não é primo
-      }
-  }
+//   // Percorre os números de 2 até a raiz quadrada do número fornecido
+//   for ($i = 2; $i <= sqrt($number); $i++) {
+//       if ($number % $i == 0) {
+//           return false; // Encontrou um divisor, o número não é primo
+//       }
+//   }
 
-  return true; // Não encontrou nenhum divisor, o número é primo
-}
+//   return true; // Não encontrou nenhum divisor, o número é primo
+// }
 
-// Exemplo de uso da função
-$number = 17;
-if (isPrime($number)) {
-  echo "$number é um número primo";
-} else {
-  echo "$number não é um número primo";
-}
+// // Exemplo de uso da função
+// $number = 17;
+// if (isPrime($number)) {
+//   echo "$number é um número primo";
+// } else {
+//   echo "$number não é um número primo";
+// }
 
 ?>
